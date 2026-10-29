@@ -1,0 +1,152 @@
+.alibaba-login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff6a00 0%, #e65100 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.alibaba-login-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.alibaba-login-form-wrapper {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.alibaba-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.alibaba-logo {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.alibaba-login-form-wrapper h1 {
+  color: #ff6a00;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.alibaba-login-form-wrapper p {
+  color: #666;
+  font-size: 1.125rem;
+}
+
+.error-message {
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.alibaba-login-form {
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #ff6a00;
+}
+
+.form-group small {
+  display: block;
+  margin-top: 0.25rem;
+  color: #888;
+  font-size: 0.875rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.alibaba-btn {
+  background: #ff6a00;
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 106, 0, 0.3);
+}
+
+.alibaba-btn:hover {
+  background: #ff6a00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 106, 0, 0.4);
+}
+
+.alibaba-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.alibaba-info {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #ff6a00;
+}
+
+.alibaba-info h3 {
+  color: #ff6a00;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+}
+
+.alibaba-info ol {
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #666;
+}
+
+.alibaba-info li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+  .alibaba-login-form-wrapper {
+    padding: 2rem;
+  }
+
+  .alibaba-login-form-wrapper h1 {
+    font-size: 1.75rem;
+  }
+}
